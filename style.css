@@ -130,7 +130,6 @@ table{
     border-spacing: 0;
     overflow: hidden;
     box-shadow: 0 12px 5px rgba(32, 32 32 .3);
-    /* background: gray; */
     text-align: center;
     border: 1px solid black;
 }
@@ -138,13 +137,15 @@ th,td{
     padding: 12px 15px;
 }
 th{
-    background: rgb(205, 201, 201);
+    background: grey;
     border: 1px solid black;
 }
 td{
     border: 1px solid black;
 }
-
+tr:nth-child(even){
+    background-color: lightgrey;
+}
 
 
 /* styles for form */
@@ -214,6 +215,25 @@ button:hover {
 
 /* royal family */
 .royal-family{
+margin-bottom: 25px;
+margin-left: 8%;
+}
+.family{
+display: flex;
+justify-content: space-evenly;
+}
+.family img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 10px solid #8B5619;
+}
+.family div{
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+}
+
+/* .royal-family{
    margin-top: 5%;
 }
 .family{
@@ -232,4 +252,4 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-   }
+   } */
