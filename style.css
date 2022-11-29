@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@200;400&family=Poppins:wght@400;500;600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Tahoma, Serif;
+    /* font-family: Arial, Tahoma, Serif; */
     min-height: 100vh;
 
 }
@@ -57,6 +58,12 @@ section {
 
 footer {
     background: #8B5619;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+   
+
 
 
 }
@@ -77,50 +84,63 @@ footer {
     color: white;
 
 }
-.about_us h2{
+
+.about_us h2 {
     color: #f8f8f6;
 }
- #anim {
+
+#anim {
     animation-name: anim;
     animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
- }
-    @keyframes anim {
+}
+
+@keyframes anim {
     0% {
-     color: #FA5A88;
-     top: 0px;
-     left: 20px;
- }
+        color: #FA5A88;
+        top: 0px;
+        left: 20px;
+    }
+
     15% {
-     color: #a71a9d;
-     left: 150px;
- }  
+        color: #a71a9d;
+        left: 150px;
+    }
+
     30% {
-     color: #4d1f7e;
- } 
+        color: #4d1f7e;
+    }
+
     50% {
-     color: rgb(231, 129, 13);
-     top: 250px;
-     left: 0px;
- }
+        color: rgb(231, 129, 13);
+        top: 250px;
+        left: 0px;
+    }
+
     65% {
-    color: #802323;
-     left: -150px;
- }
+        color: #802323;
+        left: -150px;
+    }
+
     80% {
-     color: #f8f8f6;
- } 
+        color: #f8f8f6;
+    }
+
     100% {
-     color: #FAA55A;
-     top: 0px;
-     left: 20px;
- }  
+        color: #FAA55A;
+        top: 0px;
+        left: 20px;
+    }
 }
 
 /* table style */
-table{
-    position:absolute;
+.royal-assets{
+margin-top: 5%;
+margin-left:8% ;
+}
+table {
+    position: absolute;
     z-index: 2;
     left: 50%;
     top: 50%;
@@ -129,21 +149,25 @@ table{
     border-collapse: collapse;
     border-spacing: 0;
     overflow: hidden;
-    box-shadow: 0 12px 5px rgba(32, 32 32 .3);
     text-align: center;
     border: 1px solid black;
 }
-th,td{
+
+th,
+td {
     padding: 12px 15px;
 }
-th{
+
+th {
     background: grey;
     border: 1px solid black;
 }
-td{
+
+td {
     border: 1px solid black;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: lightgrey;
 }
 
@@ -214,21 +238,24 @@ button:hover {
 }
 
 /* royal family */
-.royal-family{
-margin-bottom: 25px;
-margin-left: 8%;
+.royal-family {
+    margin-bottom: 25px;
+    margin-left: 8%;
 }
-.family{
-display: flex;
-justify-content: space-evenly;
+
+.family {
+    display: flex;
+    justify-content: space-evenly;
 }
-.family img{
+
+.family img {
     height: 250px;
     width: 250px;
     object-fit: cover;
     border: 10px solid #8B5619;
 }
-.family div{
+
+.family div {
     /* border: 1px solid #ccc; */
     padding: 10px;
 }
