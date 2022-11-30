@@ -257,7 +257,10 @@ button:hover {
     object-fit: cover;
     border: 5px solid #8B5619;
 }
-
+.family-names{
+    display: flex;
+    justify-content: space-around;
+}
 .family div {
     padding: 10px;
 }
