@@ -160,6 +160,10 @@ th,
 td {
     padding: 12px 15px;
 }
+th, td:hover{
+    background: #8B5619;
+    color: #fff;
+}
 
 th {
     background: grey;
